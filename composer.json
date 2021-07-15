@@ -1,0 +1,20 @@
+{
+  "name": "beehamchoi/vimeo",
+  "description": "Do something with vimeo",
+  "autoload": {
+    "psr-4": {
+      "beehamchoi\\vimeo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Beehamchoi",
+      "email": "ltanh1194@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "vimeo/vimeo-api": "^3.0",
+    "ext-curl": "*"
+  }
+}
